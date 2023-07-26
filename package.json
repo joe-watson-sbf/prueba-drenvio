@@ -2,11 +2,11 @@
   "name": "dr-envio",
   "version": "1.0.0",
   "description": "Test Back-end Api DrEnvio",
-  "main": "server.ts",
+  "main": "index.ts",
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/server.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\""
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
   },
   "author": "Joseph Watzson",
   "license": "ISC",
